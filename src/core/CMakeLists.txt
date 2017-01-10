@@ -13,6 +13,7 @@ set(SRCS
             arm/skyeye_common/vfp/vfpdouble.cpp
             arm/skyeye_common/vfp/vfpinstr.cpp
             arm/skyeye_common/vfp/vfpsingle.cpp
+            cheat_core.cpp
             core.cpp
             core_timing.cpp
             file_sys/archive_backend.cpp
@@ -183,6 +184,7 @@ set(HEADERS
             arm/skyeye_common/vfp/asm_vfp.h
             arm/skyeye_common/vfp/vfp.h
             arm/skyeye_common/vfp/vfp_helper.h
+            cheat_core.h
             core.h
             core_timing.h
             file_sys/archive_backend.h
@@ -208,6 +210,7 @@ set(HEADERS
             hle/config_mem.h
             hle/function_wrappers.h
             hle/ipc.h
+            hle/ipc_helpers.h
             hle/applets/applet.h
             hle/applets/erreula.h
             hle/applets/mii_selector.h
